@@ -39,7 +39,7 @@
 #define myfabs(x) fabs(x)
 #ifndef __STRICT_ANSI__
 #define CONSTF __attribute__ ((const))
-#define REGISTERS(n) __attribute__ ((regparm(n)))
+#define REGISTERS(n)
 #else
 #define CONSTF
 #define REGISTERS(n)
